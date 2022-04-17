@@ -6,7 +6,7 @@ import tensorflow as tf
 import numpy as np
 
 xs = np.array(xs)
-ys = np.array(ys)v
+ys = np.array(ys)
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
