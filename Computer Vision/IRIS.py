@@ -32,8 +32,9 @@ def solution_model():
 
   return model
 
-solution_model()
+model = solution_model()
 
+IMG_SIZE = (224, 224)
 data = data_gen.flow_from_directory(
       data_folder,
       target_size=IMG_SIZE,
@@ -41,4 +42,4 @@ data = data_gen.flow_from_directory(
       class_mode="binary",
   )
 
-IMG_SIZE = (224, 224)
+
